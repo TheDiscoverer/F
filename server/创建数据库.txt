@@ -1,0 +1,22 @@
+create table tem(
+id int NOT NULL AUTO_INCREMENT,
+PRIMARY KEY(id),
+t int
+);
+create table weight(
+id int NOT NULL AUTO_INCREMENT,
+PRIMARY KEY(id),
+weight1 int,
+weight2 int
+);
+
+create table getweight(
+id int NOT NULL AUTO_INCREMENT,
+PRIMARY KEY(id),
+_weight int
+);
+create table user (user varchar(30) primary key,pwd varchar(30),uuid varchar(30));
+
+insert into user (uuid,user,pwd) values ('testdevice','admim@admin.com','admin');
+
+select * from user;
